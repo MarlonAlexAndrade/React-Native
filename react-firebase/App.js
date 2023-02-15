@@ -8,14 +8,7 @@ import { Picker } from '@react-native-picker/picker';
 
 
 // Configurações do Firebase
-const firebaseConfig = {
-  apiKey: "AIzaSyBfVu5McLT43xy4ZSgQf70lnyBCrn7NutA",
-  authDomain: "projeto-firebase-871e6.firebaseapp.com",
-  projectId: "projeto-firebase-871e6",
-  storageBucket: "projeto-firebase-871e6.appspot.com",
-  messagingSenderId: "344719703822",
-  appId: "1:344719703822:web:be2fbf0a4915ae977b215f"
-};
+const firebaseConfig = {};
 
 // Objeto contendo as configurações do Firebase
 const app = initializeApp(firebaseConfig);
